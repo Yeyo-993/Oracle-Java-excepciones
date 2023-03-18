@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\User\Oracle\Backend-Java\Java Excepciones\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1509799344.index
+1173250645.index
