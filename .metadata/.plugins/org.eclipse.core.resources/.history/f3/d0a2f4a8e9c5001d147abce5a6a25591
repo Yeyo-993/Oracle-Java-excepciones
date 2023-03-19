@@ -17,18 +17,10 @@ public class Flujo {
 			System.out.println(i);
 			
 			try {//Intenta esto
-				
-				if(i == 3) {
-					int num = 0;
-					int resultado = i/num;
-					System.out.println(resultado);
-				}
-				
-				String test = null;
-				System.out.println(test.toString());
-				
-			} catch (ArithmeticException | NullPointerException exception) {//Atrapa el error
-				System.out.println("Atrapo Exception");
+				int num = 0;
+				int resultado = i/num;
+				System.out.println(resultado);
+			} catch (ArithmeticException exception) {//Atrapa el error
 				System.out.println(exception.getMessage());
 				exception.printStackTrace();
 			}

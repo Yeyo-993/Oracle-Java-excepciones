@@ -26,7 +26,6 @@ public class Flujo {
 				
 				String test = null;
 				System.out.println(test.toString());
-				
 			} catch (ArithmeticException | NullPointerException exception) {//Atrapa el error
 				System.out.println("Atrapo Exception");
 				System.out.println(exception.getMessage());
