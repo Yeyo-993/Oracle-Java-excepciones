@@ -13,7 +13,6 @@ public class Flujo {
 	}
 	public static void metodo2(){
 		System.out.println("Inicio metodo2");
-		Cuenta cuenta = new Cuenta();
 		throw new ArithmeticException();
 	}
 	  
