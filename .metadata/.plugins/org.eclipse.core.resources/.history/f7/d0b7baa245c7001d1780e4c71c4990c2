@@ -1,0 +1,19 @@
+
+public class TestConexion {
+
+	public static void main(String[] args) {
+		Conexion conexion = null);
+		try {
+			conexion = new Conexion();
+			conexion.leerDatos();
+		} catch (IllegalStateException ex) {
+			System.out.println("Recibiendo excecion");
+			ex.printStackTrace();
+		} finally {
+			System.out.println("Ejecutando finally");
+			conexion.cerrar();
+		}
+		
+	}
+	
+}
