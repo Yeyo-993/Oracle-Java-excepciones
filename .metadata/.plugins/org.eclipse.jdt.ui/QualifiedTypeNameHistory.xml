@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
     <fullyQualifiedTypeName name="CuentaAhorros"/>
+    <fullyQualifiedTypeName name="Conexion"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
 </qualifiedTypeNameHistroy>
